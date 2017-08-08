@@ -1,6 +1,6 @@
 # \<taktik-search-api-mixin\>
 
-
+`TaktikSearchApiMixin` defines standard behavior for search modules compatible with *taktik-free-text-search*.
 
 ## Install the Polymer-CLI
 

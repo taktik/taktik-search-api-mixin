@@ -2,7 +2,8 @@
   "name": "taktik-search-api-mixin",
   "main": "taktik-search-api-mixin.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0"
+    "polymer": "Polymer/polymer#^2.0.0",
+    "taktik-polymer-typeScript": "taktik/taktik-polymer-typeScript"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",

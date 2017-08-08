@@ -1,4 +1,19 @@
 <?xml version="1.0"?>
 <testsuites>
-	<testsuite/>
+	<testsuite errors="0" failures="2" name="test/taktik-search-api-mixin_test.html (firefox 54)" skipped="0" tests="2">
+		<testcase name="taktik-search-api-mixin; instantiating the element with default properties works" time="8">
+			<failure message="expected undefined to equal &#x27;taktik-search-api-mixin&#x27;">expected undefined to equal 'taktik-search-api-mixin'
+                            AssertionError at /components/chai/chai.js:5553
+  [3]&lt;/module.exports/Assertion.prototype.assert at /components/chai/chai.js:206
+          [6]&lt;/module.exports/assert.equal at /components/chai/chai.js:2277
+                                 &lt;unknown&gt; at taktik-search-api-mixin_test.html:33</failure>
+		</testcase>
+		<testcase name="taktik-search-api-mixin; setting a property on the element works" time="9">
+			<failure message="expected undefined to equal &#x27;new-prop1&#x27;">expected undefined to equal 'new-prop1'
+                            AssertionError at /components/chai/chai.js:5553
+  [3]&lt;/module.exports/Assertion.prototype.assert at /components/chai/chai.js:206
+          [6]&lt;/module.exports/assert.equal at /components/chai/chai.js:2277
+                                 &lt;unknown&gt; at taktik-search-api-mixin_test.html:42</failure>
+		</testcase>
+	</testsuite>
 </testsuites>
