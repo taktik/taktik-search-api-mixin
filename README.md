@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/taktik/taktik-search-api-mixin.svg?branch=master)](https://travis-ci.org/taktik/taktik-search-api-mixin)
+
 # \<taktik-search-api-mixin\>
 
 `TaktikSearchApiMixin` defines standard behavior for search modules compatible with *taktik-free-text-search*.
