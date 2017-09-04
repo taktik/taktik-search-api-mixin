@@ -1,12 +1,13 @@
-<link rel="import" href="../polymer/polymer-element.html">
+
 <script>
+  import "polymer/polymer-element.html"
   /**
    * `TaktikSearchApiMixin` defines standard behavior for search modules compatible with *taktik-free-text-search*.
    *
    * @polymerMixin
    */
 
-  TaktikSearchApiMixin = Polymer.dedupingMixin(function(superClass) {
+  window.TaktikSearchApiMixin = Polymer.dedupingMixin(function(superClass) {
     return class TaktikSearchApiMixin extends superClass {
 
       static get properties() {
